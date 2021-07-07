@@ -11,7 +11,7 @@ import Footer from '../Footer/Footer'
 
 const BodyHome = styled.div`
 display:flex;
-justify-content:space-evenly;
+justify-content:flex-start;
 flex-direction:column;
 width: 100vw;
 height: 90vh;
@@ -81,12 +81,12 @@ function Home() {
     <BodyHome>
 
       <HeaderTitle >
-        
+
         <TextStyled>
           <Hello>{context.hello}</Hello>
-          <Title>{context.title}</Title>         
+          <Title>{context.title}</Title>
         </TextStyled>
-        
+
         <div class="animate__animated animate__fadeInUp">
           <FontP >Frontend - Developer</FontP>
           <FontP >Web Designer</FontP>
@@ -104,10 +104,10 @@ function Home() {
         <Button />
       </ButtonDown>
 
-<Footer/>
+      <Footer />
 
     </BodyHome>
-    
+
 
   );
 };
