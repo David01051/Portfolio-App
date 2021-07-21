@@ -1,6 +1,6 @@
 import Reart from 'react'
 import styled from 'styled-components'
-import { FaGithub, FaLinkedinIn, FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaFacebookSquare, FaInstagram ,FaHome} from "react-icons/fa";
 
 
 
@@ -24,6 +24,7 @@ a :hover{
 }
 `
 
+
 function Footer() {
 
 
@@ -33,6 +34,9 @@ function Footer() {
 
                 <Icons><a href="https://www.facebook.com/" ><FaFacebookSquare /></a></Icons>
                 <Icons><a href="https://www.linkedin.com/feed/" ><FaLinkedinIn /></a></Icons>
+               
+                
+
                 <Icons><a href="https://github.com/" ><FaGithub /></a></Icons>
                 <Icons><a href="https://www.instagram.com/" ><FaInstagram /></a></Icons>
 

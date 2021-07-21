@@ -1,6 +1,6 @@
 
 import React from "react";
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { FaDownload } from "react-icons/fa";
 
 
@@ -26,13 +26,16 @@ align-items:center;
 `
 
 
+
 function DownCv() {
 
 
     return (
         <>
             <ButtonDown>
-                <ButuonHover>Download CV <FaDownload /></ButuonHover>
+
+                <ButuonHover><a href="https://workupload.com/file/jPeCgUULDBL"></a>Download CV <FaDownload /></ButuonHover>
+
             </ButtonDown>
         </>
     );

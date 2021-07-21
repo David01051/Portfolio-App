@@ -62,8 +62,6 @@ export default function MyTimeline() {
                                 Technical course:
                                 Server side: C#, Asp.Net, Nodejs OOP, API Using Express
                                 Client side: HTML, CSS, JavaScript, React, TypeScript, Bootstrap, Nodejs
-
-
                             </Typography>
                             </Paper>
                         </TimelineContent>

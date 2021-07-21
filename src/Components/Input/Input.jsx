@@ -2,7 +2,7 @@
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer';
 
 
 const Body = styled.div`
@@ -13,6 +13,7 @@ align-items:center;
 flex-direction:column;
 width:100vw;
 height: 100vh;
+
 `
 const Titel = styled.div`
 color:white;
@@ -105,6 +106,7 @@ function Contact(event) {
                 <h1>Contact Me</h1>
             </Titel>
             <div class="animate__animated animate__fadeInUp">
+                
                 <Item>
                     <IconEmail>
                         <Icons><FaEnvelope /></Icons>

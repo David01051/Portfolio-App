@@ -4,9 +4,9 @@ import styled from "styled-components";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
-import MyProject from '../MyProject/MyProject'
-import Input from '../Input/Input'
-import TimeLine from '../TimeLine/TimeLine'
+import MyProject from '../MyProject/MyProject';
+import Input from '../Input/Input';
+import TimeLine from '../TimeLine/TimeLine';
 
 
 const BodyNav = styled.div`
@@ -32,7 +32,7 @@ li {
 .LinkBar {
 display:flex;
 justify-content:center;
-margin-left:21px;
+margin-left:28px;
 text-decoration:none;
 font-weight: 800;
 font-size:15px;
@@ -45,7 +45,7 @@ color: white;
 const ContactMe = styled.nav`
 li{
 margin-left:31px;
-display: inline-block;
+
 a{
 text-decoration:none;
 color:white;

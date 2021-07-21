@@ -3,6 +3,7 @@ import React from "react";
 import styled from 'styled-components'
 import { useEffect, useState } from 'react'
 import CountUp from 'react-countup';
+import { FaReact } from "react-icons/fa";
 
 const BodyMain = styled.div`
 display:flex;
@@ -72,13 +73,14 @@ function Main() {
         <Cards>
 
           <Card>
-            <Score><CountUp end={85} />%</Score>
+          
+            <Score><CountUp end={90} />%</Score>
             <h3>ReactJS</h3>
             <CardP>While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.</CardP>
           </Card>
 
-          <Card>
-            <Score><CountUp end={75} />%</Score>
+          <Card> 
+            <Score><CountUp end={95} />%</Score>
             <h3>C#</h3>
             <p>While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.</p>
           </Card>
@@ -93,12 +95,12 @@ function Main() {
             <p>While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.</p>
           </Card>
           <Card>
-            <Score><CountUp end={79} />%</Score>
+            <Score><CountUp end={99} />%</Score>
             <h3>TypeScript</h3>
             <CardP>While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.</CardP>
           </Card>
           <Card>
-            <Score><CountUp end={80} />%</Score>
+            <Score><CountUp end={98} />%</Score>
             <h3>NodeJS</h3>
             <CardP>While we’re proud of our history and our accomplishments, we’re loyal to our future and not past.</CardP>
           </Card>
